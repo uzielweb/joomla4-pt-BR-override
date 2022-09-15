@@ -1,0 +1,15 @@
+<!--  Joomla Language Pack installer -->
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension type="file" version="4.0" method="upgrade">
+    <name>Joomla! 4.x.x Português (Brasil) Language Override Pack</name>
+    <version>4.0.0</version>
+    <creationDate>2022-09-15</creationDate>
+    <description>Joomla! Pacote de substitutivos de idioma Português (Brasil)</description>
+    <author>Joomla! Tradução Português (Brasil) - Ponto Mega Team</author>
+    <authorEmail>contato@pontomega.com.br</authorEmail>
+    <authorUrl>https://pontomega.com.br</authorUrl>
+    <files>
+        <filename type="language" client="site" id="pt-BR">language/overrides/pt-BR.override.ini</filename>
+        <filename type="language" client="administrator" id="pt-BR">administrator/language/overrides/pt-BR.override.ini</filename>
+    </files>
+</extension>
