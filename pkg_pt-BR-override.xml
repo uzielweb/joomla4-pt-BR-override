@@ -20,8 +20,8 @@
 </div>]]></description>
 	<blockChildUninstall>true</blockChildUninstall>
 	<files>
-		<folder type="override" client="site" id="pt-BR">override</folder>
-		<folder type="override" client="administrator" id="pt-BR">administrator/override</folder>
+		<folder type="override" client="site" id="pt-BR">language/overrides</folder>
+		<folder type="override" client="administrator" id="pt-BR">administrator/language/overrides</folder>
 	</files>
 	<updateservers>
 		<server type="collection" priority="1" name="Traduções Joomla! Overrides">
