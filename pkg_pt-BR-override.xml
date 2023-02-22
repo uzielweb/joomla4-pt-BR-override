@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="package" method="upgrade">
+	<name>Português Brasil (pt-BR) Pacote de idioma</name>
+	<packagename>pt-BR</packagename>
+	<version>4.3.8</version>
+	<creationDate>Setembro de 2021</creationDate>
+	<author>Use Joomla!</author>
+	<authorEmail>contato@usejoomla.com.br</authorEmail>
+	<authorUrl>www.usejoomla.com.br</authorUrl>
+	<copyright>Copyright (C) 2021 Open Source Matters. Todos os direitos reservados.</copyright>
+	<license>https://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<url>https://github.com/joomla/joomla-cms</url>
+	<packager>Use Joomla!</packager>
+	<packagerurl>www.usejoomla.com.br</packagerurl>
+	<description><![CDATA[<div style="text-align: left;">
+ <h2>Sobrescrita de Tradução Português Brasileiro (pt-BR) para Joomla! 4.3.8 instalada com sucesso!</h2>
+ <h3>Versão 4.3.8</h3>
+ <p>Por favor, informe qualquer problema ou assunto relacionado encontrado, na página <a href="https://www.facebook.com/groups/traduzjoomla/" target="_blank">Grupo Traduções Joomla pt-BR</a> no Facebook.</p>
+ <p>Traduzido pela <em>Equipe de Tradução Português Brasileiro</em>.</p>
+</div>]]></description>
+	<blockChildUninstall>true</blockChildUninstall>
+	<files>
+		<folder type="override" client="site" id="pt-BR">override</folder>
+		<folder type="override" client="administrator" id="pt-BR">administrator/override</folder>
+	</files>
+	<updateservers>
+		<server type="collection" priority="1" name="Traduções Joomla! Overrides">
+			https://github.com/uzielweb/joomla4-pt-BR-override
+		</server>
+	</updateservers>
+</extension>
